@@ -27,3 +27,11 @@ Bootstrap
 ---------
 Bootstrap is a *framework* that we can add to our regular development of a website using Javascript, HTML, and CSS/LESS. Bootstrap takes care of a lot of layout and formatting problems for us and makes our websites really easy to create by simply following a template.
 
+Useful Websites and Tools
+-------------------------
+* [LoremPixel](http://lorempixel.com/): site that provides placeholder images for initially creating a website.
+* [WinLess Online](http://winless.org/online-less-compiler): site that compiles LESS to CSS
+* [Sublime Text 2](http://www.sublimetext.com/2): an awesome code editor for all major operating systems
+* [Bootstrap](http://getbootstrap.com/2.3.2): the official site for Bootstrap version 2 with full documentation
+* [Mozilla Developer Network](https://developer.mozilla.org/en-US/): great online resource for information on web programming
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome): collection of beautiful, free icons

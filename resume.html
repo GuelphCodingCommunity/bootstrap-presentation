@@ -27,7 +27,17 @@
             <ul class="nav">
               <li><a href="projects.html">Projects</a></li>
               <li><a href="resume.html">Resume</a></li>
-              <li><a href="workterms.html">Work Terms</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  Workterms
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="workterms/rim.html">Research In Motion</a></li>
+                  <li><a href="workterms/waveaccounting.html">Wave Accounting</a></li>
+                  <li><a href="workterms/google.html">Google</a></li>
+                </ul>
+              </li>
               <li><a href="contact.html">Contact</a></li>
             </ul>
           </div>
@@ -63,49 +73,49 @@
           <div id="skills" class="row-fluid">
             <h2>Skills</h2>
             <hr />
-            <h3>Section 1</h3>
+            <h3>Programming</h3>
             <ul>
               <li>
-                <strong>Skill name: </strong>
-                Description
+                <strong>Python </strong>
+                including Django
               </li>
               <li>
-                <strong>Skill name: </strong>
-                Description
+                <strong>Javascript </strong>
+                including node.js, Backbone, and jQuery
               </li>
               <li>
-                <strong>Skill name: </strong>
-                Description
+                <strong>Java </strong>
+                including Groovy, Slick2D, and Swing
               </li>
             </ul>
-            <h3>Section 2</h3>
+            <h3>Building</h3>
             <ul>
               <li>
-                <strong>Skill name: </strong>
-                Description
+                <strong>(mostly) Static web design </strong>
+                using Bootstrap, LESS, and HTML templating
               </li>
               <li>
-                <strong>Skill name: </strong>
-                Description
+                <strong>Scripting </strong>
+                and building useful modules in Python
               </li>
               <li>
-                <strong>Skill name: </strong>
-                Description
+                <strong>Application development </strong>
+                in C and Java
               </li>
             </ul>
-            <h3>Section 3</h3>
+            <h3>Sysadmin</h3>
             <ul>
               <li>
-                <strong>Skill name: </strong>
-                Description
+                <strong>Package management </strong>
+                using yum, brew, apt-get, and pacman
               </li>
               <li>
-                <strong>Skill name: </strong>
-                Description
+                <strong>Daemon configuration </strong>
+                such as restricting sshd, and managing startup services
               </li>
               <li>
-                <strong>Skill name: </strong>
-                Description
+                <strong>CLI warrior </strong>
+                with absurdly tweaked out dotfiles
               </li>
             </ul>
           </div>
@@ -114,31 +124,31 @@
             <h2>Experience</h2>
             <hr />
 
-            <h3>Company 1</h3>
-            <p><strong><i class="icon-calendar"></i> Start Date - End Date</strong></p>
-            <p><strong><i class="icon-map-marker"></i> Location</strong></p>
+            <h3>Frontend/Backend Developer at <em>Wave Accounting</em></h3>
+            <p><strong><i class="icon-calendar"></i> April 2013 - August 2013</strong></p>
+            <p><strong><i class="icon-map-marker"></i> Toronto</strong></p>
             <ul>
-              <li>Responsibility 1</li>
-              <li>Responsibility 2</li>
-              <li>Responsibility 3</li>
+              <li>Created and demoed an open source API in Python for interacting with a SaaS targeted email provider</li>
+              <li>Re-designed responsive views using Bootstrap and Backbone Forms</li>
+              <li>Implemented event tracking via RESTful calls to multiple analytics providers</li>
             </ul>
 
-            <h3>Company 2</h3>
-            <p><strong><i class="icon-calendar"></i> Start Date - End Date</strong></p>
-            <p><strong><i class="icon-map-marker"></i> Location</strong></p>
+            <h3>Continuous Integration Engineer at <em>Research In Motion</em></h3>
+            <p><strong><i class="icon-calendar"></i> May 2012 - December 2012</strong></p>
+            <p><strong><i class="icon-map-marker"></i> Waterloo</strong></p>
             <ul>
-              <li>Responsibility 1</li>
-              <li>Responsibility 2</li>
-              <li>Responsibility 3</li>
+              <li>Developed a Perl library for real time build monitoring and logging</li>
+              <li>Configured build machines and resource allocation pools</li>
+              <li>Developed a metadata based build versioning system in Groovy</li>
             </ul>
 
-            <h3>Company 3</h3>
-            <p><strong><i class="icon-calendar"></i> Start Date - End Date</strong></p>
-            <p><strong><i class="icon-map-marker"></i> Location</strong></p>
+            <h3>Teaching Assistant at <em>University of Guelph</em></h3>
+            <p><strong><i class="icon-calendar"></i> January 2012 - April 2012</strong></p>
+            <p><strong><i class="icon-map-marker"></i> Guelph</strong></p>
             <ul>
-              <li>Responsibility 1</li>
-              <li>Responsibility 2</li>
-              <li>Responsibility 3</li>
+              <li>Wrote a new project plan for teaching HTML and CSS to non-technical students</li>
+              <li>Held open office hours to counsel students having difficulties</li>
+              <li>Led a class on the basics of web programming</li>
             </ul>
           </div>
 
@@ -146,22 +156,10 @@
             <h2>Education</h2>
             <hr />
 
-            <h3>Name of your degree</h3>
-            <p><strong><i class="icon-calendar"></i> Start Date - End Date</strong></p>
+            <h3>Bachelor of Computer Science</h3>
+            <p><strong><i class="icon-calendar"></i> September 2010 - April 2015</strong></p>
             <p>
-              Any additional information about degree (minor, area of application, work studies)
-            </p>
-
-            <h3>Certification 1</h3>
-            <p><strong><i class="icon-calendar"></i> Start Date - End Date</strong></p>
-            <p>
-              Any additional information about certification 
-            </p>
-
-            <h3>Certification 2</h3>
-            <p><strong><i class="icon-calendar"></i> Start Date - End Date</strong></p>
-            <p>
-              Any additional information about certification 
+              Pursuing an honours bachelor degree with an area of application in mathematics.
             </p>
           </div>
 
@@ -169,17 +167,9 @@
             <h2>Awards</h2>
             <hr />
 
-            <h3>Award 1</h3>
-            <p><strong><i class="icon-calendar"></i> Awarded Date</strong></p>
-            <p>Information about award</p>
-
-            <h3>Award 2</h3>
-            <p><strong><i class="icon-calendar"></i> Awarded Date</strong></p>
-            <p>Information about award</p>
-
-            <h3>Award 3</h3>
-            <p><strong><i class="icon-calendar"></i> Awarded Date</strong></p>
-            <p>Information about award</p>
+            <h3>Canada Computing Contest</h3>
+            <p><strong><i class="icon-calendar"></i> 2008</strong></p>
+            <p>Placed top 25% nationwide in the contest run by the University of Waterloo.</p>
           </div>
 
         </div>

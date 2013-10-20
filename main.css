@@ -10,6 +10,9 @@ body a {
 #contact-info {
   text-align: center;
 }
+#avatar {
+  text-align: center;
+}
 #avatar img {
   height: 200px;
   width: 200px;

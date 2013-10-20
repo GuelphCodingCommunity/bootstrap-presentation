@@ -1,13 +1,12 @@
 ---
-layout: default
+layout: contact 
 ---
-
-![Avatar](/img/avatar.png){:#avatar}
 
 Contact Me
 ==========
 
 Find me online or in one of the labs on campus.
+{:.lead}
 
 rwilsonp [at] uoguelph [dot] ca
 

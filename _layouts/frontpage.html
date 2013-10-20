@@ -3,10 +3,10 @@
   <head>
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap-responsive.css">
-    <link rel="stylesheet" href="/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="{{ site.url }}/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="{{ site.url }}/bootstrap/css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="{{ site.url }}/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="{{ site.url }}/main.css">
   </head>
   <body>
     {% include navbar.html %}
@@ -18,15 +18,15 @@
       <div class="row">
         <div class="span4">
           {% contentblock projects-callout %}
-          <a class="btn" href="/projects">See more &raquo;</a>
+          <a class="btn" href="{{ site.url }}/projects">See more &raquo;</a>
         </div>
         <div class="span4">
           {% contentblock resume-callout %}
-          <a class="btn" href="/resume">See more &raquo;</a>
+          <a class="btn" href="{{ site.url }}/resume">See more &raquo;</a>
         </div>
         <div class="span4">
           {% contentblock contact-callout  %}
-          <a class="btn" href="/contact">See more &raquo;</a>
+          <a class="btn" href="{{ site.url }}/contact">See more &raquo;</a>
         </div>
       </div>
     </div>

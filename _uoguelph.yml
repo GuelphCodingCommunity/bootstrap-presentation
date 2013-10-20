@@ -1,0 +1,8 @@
+name: "Ryan Wilson-Perkin"
+description: "A personal site."
+
+url: "http://www.uoguelph.ca/~rwilsonp"
+
+markdown: kramdown 
+permalink: pretty
+pygments: true
